@@ -7,4 +7,13 @@ public class Animal
     public string Category { get; set; }
     public double Weight { get; set; }
     public string Color { get; set; }
+
+    public Animal(int id, string name, string category, double weight, string color)
+    {
+        Id = id;
+        Name = name;
+        Category = category;
+        Weight = weight;
+        Color = color;
+    }
 }
